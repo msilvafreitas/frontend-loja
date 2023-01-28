@@ -5,7 +5,7 @@
 <!-- Styled-components -->
 <!-- Jest -->
 
-Para esse desafio, você deve consumir nossa API REST de produtos para exibir a lista de produtos da loja.
+<!-- Para esse desafio, você deve consumir nossa API REST de produtos para exibir a lista de produtos da loja.
 
 A aplicação deve conter apenas uma página/rota e um carrinho.
 
@@ -13,4 +13,14 @@ A aplicação deve conter apenas uma página/rota e um carrinho.
 
     Carrinho: O carrinho deve conter todos os produtos selecionados, juntamente com a opção de aumentar a quantidade de cada produto selecionado.
 
-Use do Jest e a testing-library para realizar os testes unitários
+Use do Jest e a testing-library para realizar os testes unitários -->
+
+
+front
+    web
+    mobile
+    carrinho
+api
+    conectar
+    mostrar dados corretamente
+jest / testing library
