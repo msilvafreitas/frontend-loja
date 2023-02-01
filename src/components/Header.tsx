@@ -2,24 +2,32 @@ import styled from 'styled-components';
 import { Montserrat } from '@next/font/google';
 
 const mont = Montserrat({
-    weight: ['300','400','600', '700'],
+    weight: ['300', '400', '600', '700'],
     subsets: ['latin'],
 })
 
 const MKS = styled.span`
     font-weight: 600;
     font-size: 2rem;
-    
     color: #FFFFFF;
+    @media (min-width: 768px) {
+        font-size: 2.5rem;
+  }
+
 `;
 
 const Sistemas = styled.span`
     font-weight: 300;
     font-size: 1rem;
-    margin-left: 0.3rem;
+    margin-left: 0.4rem;
     position: relative;
     bottom: 0.125rem;
     color: #FFFFFF;
+    @media (min-width: 768px) {
+        font-size: 1.125rem;
+        margin-left: 0.625rem;
+        bottom: 0.25rem;
+  }
 `;
 
 const Button = styled.button`
@@ -31,6 +39,11 @@ const Button = styled.button`
   font-weight: bold;
   font-size: 0.75rem;
   border: none;
+  @media (min-width: 768px) {
+    width: 5.6rem;
+    height: 2.8rem;
+    font-size: 1.125rem;
+  }
 `;
 
 const Wrapper = styled.section`
@@ -42,6 +55,11 @@ const Wrapper = styled.section`
     align-items: center;
     padding-left: 1.25rem;
     padding-right: 1.4rem;
+    @media (min-width: 768px) {
+        height: 6.3rem;
+        padding-left: 3.9375rem;
+        padding-right: 5.5rem;
+  }
 `;
 
 export function Header() {
